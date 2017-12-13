@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Game </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+    <script src="roomdata.js"></script>
+    <script src="music.js"></script>
+
+
+
+  </head>
+
+  <body onLoad="OnLoad()">
+  <audio id="ambient" src = "classicBGM.mp3" preload="auto" loop="loop"></audio>
+  <audio id="coin" src = "pickup.mp3" preload="auto"></audio>
+
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+          <span class="glyphicon glyphicon-heart"> </span>
+        </button>
+        <a class="navbar-brand" href="index.html">Seitokaichou Ni Mezase!</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="about.html">About</a></li>
+          <li><a href="gamesetup.html">Game</a></li>
+          <li><a href="#">Credits</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+
+    <div class="container">
+        <center><input type="image" src="glasses.png" onClick="toggleBGM()"></center>
+    </div>
+
+    <div class="container">
+          <center><div id="gamePagesWell" class="well">
+          <h3><span id="firstname"></span> <span id="lastname"></span>'s Election Campaign<h3>
+          <img id="roomImage">
+          <h3 id="roomTitle">Room title</h3>
+
+          <p id="roomText">Room text</p>
+
+          <div id="roomChoices" onClick="coinNoise()">Room choice buttons</div>
+
+          </div></center>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Game Setup </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="music.js"></script>
+    <script src="main.js"></script>
+
+
+    </head>
+
+  <body>
+      <audio id="schoolbell" src = "schoolbell.mp3" preload="auto"></audio>
+      <audio id="ambient" src="cicada.mp3"  loop="loop"></audio>
+
+
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+          <span class="glyphicon glyphicon-heart"> </span>
+        </button>
+        <a class="navbar-brand" href="index.html">Seitokaichou Ni Mezase!</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="about.html">About</a></li>
+          <li><a href="gamesetup.html">Game</a></li>
+          <li><a href="#">Credits</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <center><input type="image" src="glasses.png" onClick="toggleBGM()"></center>
+    </div>
+
+    <div class="container">
+          <center><div id="gameImageWell" class="well">
+            <h3><center> Game Setup </center></h3>
+
+            <center><img src="schoolentrance.png" id="gameImage"></center>
+
+            <form method="post" action="gamepages.html" onSubmit="StorePlayerData()">
+              <input type="text" name="firstname" class="nameInput" placeholder="First Name"/>
+  	           <br />
+               <input type="text" name="lastname" class="nameInput" placeholder="Surname" />
+             </br>
+              <button type="submit" class="btn btn-primary">Start!</button>
+            </form>
+
+          </center>
+
+
+          </div>
+    </div>
+
+    <div class="container">
+      <center>
+       <button type="button" class="btn" id="enterButton" onClick="schoolBellNoise()">Enter</button>
+
+    </div>
+
+  </body>

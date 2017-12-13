@@ -1,0 +1,205 @@
+
+.navbar
+{
+  font-family: "Concert One";
+  font-size: 30px;
+  background-color: #FCD0CF;
+
+}
+.navbar li a, .navbar-brand
+{
+  color: #7F6969 !important;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.navbar-nav li a:hover , .navbar-header a:hover
+{
+  color: #A2A9AF !important;
+ cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat848.png), progress !important;
+}
+
+button
+{
+  color: #7F6969 !important;
+
+
+  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat848.png), progress !important;
+}
+
+.btn
+{
+
+  background-image: url("buttoncopy.png");
+  background-size: cover;
+  font-size: 30px;
+
+}
+
+html, body
+{
+  background-color: white;
+  background-image: url("petals2.gif");
+  background-attachment: fixed;
+
+
+  
+  box-sizing: border-box;
+}
+
+.inversed {
+
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+input
+{
+    width: 500px;
+    margin-top: 100px;
+}
+input:focus
+ {
+   outline:none;
+ }
+
+input:hover
+{
+  cursor: url(http://cur.cursors-4u.net/others/oth-6/oth508.ani), url(http://cur.cursors-4u.net/others/oth-6/oth508.png), progress !important;
+}
+
+.inversed input:hover
+{
+cursor: url(http://cur.cursors-4u.net/games/gam-13/gam1210.ani), url(http://cur.cursors-4u.net/games/gam-13/gam1210.png), progress !important;}
+}
+
+
+#alienEmoji
+{
+  width: 200px;
+  height: 100px;
+}
+
+.well
+{
+  margin:100px;
+  margin-top: 30px;
+  font-family: "Montserrat";
+  color: #7F6969;
+  background-color: rgba(252,208,207,0.8);
+  font-size: 20px
+}
+.well h3
+{
+  font-family: "Concert One";
+  font-size: 40px;
+}
+#gameImageWell
+{
+  margin-bottom: 0px;
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+#gameTextWell
+{
+  font-family: "Concert One";
+
+  margin-top: 10px;
+}
+#aboutMeWell
+{
+  margin:200px;
+  margin-top: 30px;
+}
+#myFace
+{
+  width: 220px;
+  height: 200px;
+}
+
+#gameImage
+{
+  width:100%;
+  height: 100%;
+}
+
+#leftAboutContainer
+{
+  width:25%;
+  float: left;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+
+}
+#centerAboutContainer
+{
+  width: 40%;
+  float: left;
+  text-align: left;
+}
+#roomImage
+{
+  width:100%;
+  height: 100%;
+}
+form
+{
+  display: none;
+  margin-bottom: 0px;
+
+}
+form input
+{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  width: 200px;
+  -webkit-transition:width 3s;
+  transition: width 3s;
+  text-align: center;
+}
+form input:hover
+{
+  width: 400px;
+  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat848.png), progress !important;
+ }
+
+ #enterButton , .btn-primary
+ {
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   text-shadow: 1px 2px 1px #FCD0CF;
+   -webkit-box-shadow: 5px 5px 16px #7F6969;
+   -moz-box-shadow: 5px 5px 16px #7F6969;
+   box-shadow: 5px 5px 16px #7F6969;
+   color: #7F6969;
+   font-size: 20px;
+   background: #FFEBEB;
+   padding: 10px 40px 10px 40px;
+   text-decoration: none;
+   margin:100px;
+   margin-top: 30px;
+   font-family: "Concert One";
+   border-color: transparent;
+   margin: 0px;
+   margin-top: 20px;
+   margin-right: 5px;
+
+ }
+
+ #enterButton:hover , .btn-primary:hover {
+   background: #7F6969 !important;
+   color: #FFEBEB !important;
+   text-decoration: none;
+   border-color: transparent;
+ }
+ #enterButton:focus , .btn-primary:focus
+ {
+   outline:none;
+ }
+.nameInput
+{
+  margin-top:10px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> About </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="music.js"></script>
+    <script src = "main.js"></script>
+
+  </head>
+
+  <body onload="WriteAboutText()">
+    <!-- Audio -->
+    <audio id="ambient" src = "heiwa.mp3" preload="auto" loop="loop"></audio>
+    <audio id="alien" src = "alien.mp3" preload="auto" loop="loop"></audio>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="glyphicon glyphicon-heart"> </span>
+      </button>
+      <a class="navbar-brand" href="index.html">Seitokaichou Ni Mezase!</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">About</a></li>
+        <li><a href="gamesetup.html">Game</a></li>
+        <li><a href="#">Credits</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+    <!-- Glasses image -->
+    <div class="container">
+        <center><input type="image" src="glasses.png" onClick="togglePlay()"></center>
+    </div>
+
+    <div class="container">
+          <center><div id="aboutMeWell" class="well well-sm">
+
+            <h3><center> About Me! </center></h3>
+
+          <div class="clearfix">
+
+            <img id="myFace" src="myface.png" class="pull-right img-circle" >
+
+          <span class="container" id="leftAboutContainer">
+         <p id= "textOne"></p> <p id="textThree"></p>
+         <p id="textFive"></p> <p id="textSeven"></p>
+         <p id="textNine"></p>
+         </span>
+         <span class="container" id="centerAboutContainer">
+          <p id= "textTwo"></p> <p id="textFour"></p>
+        <p id="textSix"></p> <p id= "textEight">
+        </p> <p id="textTen"></p>
+        </span>
+
+          </div>
+            <center><input id="alienEmoji" type="image" src="emoji.gif" onClick="playAlien()"></center>
+
+
+        </div>
+      </div></center>
+    </div>
+
+  </body>

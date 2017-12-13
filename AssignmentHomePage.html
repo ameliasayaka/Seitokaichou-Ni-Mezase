@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Homepage </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+    .navbar
+    {
+      font-family: "Concert One";
+      font-size: 30px;
+      background-color: #FCD0CF;
+    }
+    .navbar li a, .navbar-brand
+    {
+      color: #7F6969 !important;
+      margin-right: 50px;
+      margin-top: 10px;
+      font-size: 30px;
+    }
+    .navbar-nav li a:hover
+    {
+      color: #A2A9AF !important;
+    }
+
+    body
+    {
+      background-image: url("petals2.gif");
+    }
+
+    input
+    {
+          width: 500px;
+
+    }
+
+    .well
+    {
+      margin:80px;
+      margin-top: 30px;
+
+
+      font-family: "Montserrat";
+      color: #7F6969;
+      background-color: #FCD0CF;
+      font-size: 20px
+    }
+    .well h3
+    {
+      font-family: "Concert One";
+      font-size: 40px;
+    }
+
+    </style>
+
+
+    <script>
+
+
+
+    window.onload=function()
+    {
+      document.getElementById('heiwa').play();
+    }
+
+    function togglePlay()
+    {
+      var myAudio = document.getElementById('heiwa');
+
+      if (myAudio.paused)
+      {
+        myAudio.play();
+      }
+      else {
+        myAudio.pause;
+      }
+    }
+
+    </script>
+
+  </head>
+  <body>
+      <audio id="heiwa" src = "heiwa.mp3" preload="auto" loop="loop"></audio>
+
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <p class="navbar-brand">Seitoukaichou Ni Mezase!</p>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Game Setup</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container">
+      <center><input type="image" src="glasses.png" onClick="togglePlay()"></center>
+
+    </div>
+
+
+    <div class="container">
+          <center><div class="well">
+            <h3><center> Discipline. Intelligence. Glasses. </center></h3>
+            <center>
+            <p> These are the three tenets of the Student Council President. </p>
+            <p> You have all these qualities. </p>
+            <p> Student Council Elections are drawing near. </p>
+            <p> Your dream is within your grasp. </p>
+            <p> There is just one... </p>
+            <p> No. </p>
+            <p> There are five obstacles in your path. </p>
+            <p> Student Council Elections are drawing near. </p>
+            <p> You don't have much time. </p>
+
+
+            </center>
+          </div></center>
+    </div>
+
+  </body>
+</html>
