@@ -20,6 +20,9 @@ function OnLoad()
   var lastname = localStorage.getItem("lastname");
   document.getElementById('lastname').innerText = lastname;
 
+  document.body.style.height= "100%";
+
+  
   SelectRoom(0);
 }
 
