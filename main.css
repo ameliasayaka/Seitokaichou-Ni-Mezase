@@ -4,7 +4,7 @@
   font-family: "Concert One";
   font-size: 30px;
   background-color: #FCD0CF;
-
+  position: fixed;
 }
 .navbar li a, .navbar-brand
 {
@@ -15,7 +15,7 @@
 }
 .navbar-nav li a:hover , .navbar-header a:hover
 {
-  color: #A2A9AF !important;
+color: #A2A9AF !important;
  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(http://cur.cursors-4u.net/nature/nat-9/nat848.png), progress !important;
 }
 
@@ -39,6 +39,7 @@ button
 html
 {
   background-color: white;
+  background-image: url("petals2.gif");
   height: 100%;
 }
 body
@@ -101,7 +102,7 @@ cursor: url(http://cur.cursors-4u.net/games/gam-13/gam1210.ani), url(http://cur.
 }
 #gameImageWell
 {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   background-size: contain;
   background-repeat:no-repeat;
 }
@@ -190,6 +191,7 @@ form input:hover
    margin: 0px;
    margin-top: 20px;
    margin-right: 5px;
+   margin-bottom: 10px;
 
  }
 
