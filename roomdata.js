@@ -809,7 +809,7 @@ var roomArray = [
 			},
 			{
 				text: 'Talk to Yokoyama Mayu',
-				index: 38 //index 43 or 44
+				index: 43 //index 43 or 44
 			}
 		]
 	},
@@ -926,7 +926,7 @@ var roomArray = [
 	+"<br/>As time passes, Yokoyama and her comrades bring the tides of communist revolution through Japan."
 	+"<br/><br/>No Student Council Elections take place at schools anymore."
 	+"<br/><br/>You’ll never be Student Council President.",
-	image:src="classroom.png",
+	image:src="commieend.png",
 	choices:[
 			{
 				text: 'Game Over',

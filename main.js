@@ -152,13 +152,13 @@ function SelectRoom(roomIndex)
 
         roomArray[20].choices.splice(1,0,{text:"Bandage Uehara and give him the spare uniform", index:23});
 
-        hasBandages = false;
         }
     }
 
       if (hasBandages == true && hasUniform == true && bandageOptionFromFight==false)
       {
         roomArray[22].choices.splice(0,0,{text:"Bandage Uehara and give him the spare uniform", index:23});
+        roomArray[20].choices.splice(0,0,{text:"Bandage Uehara and give him the spare uniform", index:23});
         bandageOptionFromFight = true;
       }
 
