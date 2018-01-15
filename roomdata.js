@@ -67,7 +67,7 @@ var roomArray = [
 		+"<br/>Maeda scribbles some names on a piece of paper and hands it to you."
 		+"<br/>\"If you manage this, even I will be impressed. Smell ya later\""
 		+"<br/><br/>He laughs and leaves the classroom, fooling no one about his glasses",
-		image:src="classroomWithRival.png",
+		image:src="classroomWithRival.gif",
 		choices:[
 			{
 				text:'Ponder his words',
@@ -88,7 +88,7 @@ var roomArray = [
 		+"<br/>Iwashima Sadako: 1st Year. Strange rumors that she's possesed, but she mostly just skips class to sleep"
 		+"<br/>I wont hold my breath\""
 		+"<br/><br/>Just three students? Maeda is underestimating you. It's time to wipe that smirk off his face.",
-		image:src="classroom.png",
+		image:src="classroomnote.png",
 		choices:[
 			{
 				text:'Leave Classroom',
@@ -170,7 +170,7 @@ var roomArray = [
 	+"<br/>It's an old, tattered book on the Occult."
 	+"<br/><br/>This probably won't be particularly useful,"
 	+"<br/>but you can't resist a book you haven't read before..",
-	image:src="classroom.png",
+	image:src="libraryWithOccult.gif",
 	choices:[
 			{
 				text:'Leave the Library',
@@ -203,7 +203,7 @@ var roomArray = [
 	+"<br/><br/>"+lastName+" "+firstName+": \"Yokoyama Mayu?"
 	+"<br/>I'd like to talk to you about your blatant disregard for the uniform rules.\""
 	+"<br/><br/>She looks at you and scoffs, deciding you aren't even worth wasting her words on.",
-	image:src="classroom.png",
+	image:src="yokoyamapeace.gif",
 	choices:[
 			{
 				text:'Berate Her',
@@ -257,7 +257,7 @@ var roomArray = [
 +"<br/>From forms of development of the productive forces these relations turn into their fetters."
 +"<br/>Then begins an era of social revolution.\""
 +"<br/><br/>She looks at you with eyes of wonder, something awakening in her. She thanks you and leaves quickly.",
-	image:src="classroomWithGyaru.png",
+	image:src="classroom.png",
 	choices:[
 			{
 				text:'Leave the Classroom',
@@ -383,7 +383,7 @@ var roomArray = [
 	title:'Roof',
 	text:"You are on the School Roof."
 	+"<br/>The Roof is empty, suprisingly, aside from one intimidating figure staring out to the sky.",
-	image:src="schoolroof.png",
+	image:src="classroom.png",
 	choices:[
 		{
 			text:'Approach the man',
@@ -431,7 +431,7 @@ var roomArray = [
 	 +"<br/><br/>He decks you in the jaw, knocking you out in one powerful hit."
 	 +"<br/><br/>Later they find you unconscious, with a suspicious puddle formed around you."
 	 +"You become the laughing stock of the school, and lose miserably in the election.",
-	image:src="schoolroofwithdelinquent.gif",
+	image:src="classroom.png",
 	choices:[
 		{
 			text:'Game Over',
@@ -450,7 +450,7 @@ var roomArray = [
 	+"<br/><br/>Uehara Kei: \"You know, I’ve decided I like you. You weren’t what I was expecting. Not just anyone could match me like that."
 	+"<br/>Right.. I guess I could help you out. For a little bit.\""
 	+"<br/><br/>He looks a little beaten up, but exhilarated.",
-	image:src="schoolroofwithdelinquent.gif",
+	image:src="classroom.png",
 	choices:[ //choices added when available
 		{
 			text:'Convince him to dye his hair back to a natural colour',
@@ -472,7 +472,7 @@ var roomArray = [
 	+"<br/><br/>You hand him a spare shirt and gakuran, luckily they fit reasonably well."
 	+"<br/>He takes them off you."
 	+"<br/><br/>Uehara Kei: \"Thanks man. I'll put these on in a bit.. I'm feeling a little hot at the moment..\"",
-	image:src="schoolroofwithdelinquent.gif",
+	image:src="classroom.png",
 	choices:[ //choices added when available
 		{
 			text:'Convince him to dye his hair back to a natural colour',
@@ -492,7 +492,7 @@ var roomArray = [
 	+"<br/><br/>You say this bluntly, not dropping your gaze from him."
 	+"<br/>He looks slightly embarrassed."
 	+"<br/>Uehara Kei: \"Yeah, yeah, you don’t need to dress it up, okay? I said I’d help you, so I’ll dye it. Doesn’t matter much to me either way.\"",
-	image:src="schoolroofwithdelinquent.gif",
+	image:src="classroom.png",
 	choices:[
 			{
 			text:'Leave',
@@ -506,7 +506,7 @@ var roomArray = [
 	text:"You are in the 1st Floor Hallway."
 	+"<br/><br/>The Third years have their lessons here."
 	+"<br/>You also have access to the Nurse’s Office, the Sport’s Field and the School Entrance.",
-	image:src="hallway.png",
+	image:src="classroom.png",
 	choices:[
 			{
 			text:'Go to the Sports Field',
@@ -579,7 +579,7 @@ var roomArray = [
 	+"<br/><br/>In that moment Yokoyama pushes past you, and you see there are tears streaming down her face."
 	+"<br/>She runs out the classroom."
 	+"<br/><br/>Iwata Keisuke: \"Ah.. she heard me.. Um.. Here are your notes. I'll see you later..\"",
-	image:src="classroomWithGyaru.png",
+	image:src="classroom.png",
 	choices:[
 			{
 			text:'Go find Yokoyama and comfort her',
@@ -621,7 +621,7 @@ var roomArray = [
 	+"<br/><br/>Iwashima Sadako: \"Ahh.. my hair… its too long… if you get me some scissors I can trim it now, if you’d like..\""
 	+"<br/><br/>You see from under her hair she is smiling."
 	+"<br/>It’s nice to encounter someone reasonable for once.",
-	image:src="nurseOfficeWithJuon.png",
+	image:src="classroom.png",
 	choices:[
 			{
 				text:'Leave',
@@ -643,7 +643,7 @@ var roomArray = [
 	+"<br/><br/>Iwashima Sadako: \"Thank... you…\""
 	+"<br/><br/>She places some bandages and plasters in your hand, as if they were a thank you gift."
 	+"<br/>A little strange, but she's been through a lot..",
-	image:src="nurseOfficeWithJuon.png",
+	image:src="classroom.png",
 	choices:[
 			{
 				text:'Leave',
@@ -681,7 +681,7 @@ var roomArray = [
 	+"<br/>It will feel good to finally get rid of all this hair."
 	+"<br/>I’ll cut it when I’m feeling a little stronger\""
 	+"<br/><br/>You can’t help but wonder what she’ll look like without all that hair in her face..",
-	image:src="nurseOfficeWithJuon.png",
+	image:src="classroom.png",
 	choices:[
 			{
 				text:'Leave',
@@ -697,7 +697,7 @@ var roomArray = [
 	+"<br/><br/>"+lastName+" "+firstName+": \"Here. You must be exhausted."
 	+"<br/>This will give you some energy. Rest up\""
 	+"<br/><br/>She takes the coffee gratefully and chugs it down.",
-	image:src="nurseOfficeWithJuon.png",
+	image:src="classroom.png",
 	choices:[
 			{
 				text:'Leave',
@@ -809,7 +809,7 @@ var roomArray = [
 			},
 			{
 				text: 'Talk to Yokoyama Mayu',
-				index: 43 //index 43 or 44
+				index: 38 //index 43 or 44
 			}
 		]
 	},
