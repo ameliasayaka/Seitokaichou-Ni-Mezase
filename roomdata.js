@@ -233,7 +233,7 @@ var roomArray = [
 	+"<br/><br/>A little later, scandalous rumors start to spread about you,"
 	+"<br/>saying that you were seen buying extremely questionable figurines in Akihabara."
 	+"<br/><br/>You lose the elections, and all dignity and respect you had in school.",
-	image:src="classroom.png",
+	image:src="maedaDeadEnd.gif",
 	choices:[
 			{
 				text:'Game Over',
@@ -492,7 +492,7 @@ var roomArray = [
 	+"<br/><br/>You say this bluntly, not dropping your gaze from him."
 	+"<br/>He looks slightly embarrassed."
 	+"<br/>Uehara Kei: \"Yeah, yeah, you don’t need to dress it up, okay? I said I’d help you, so I’ll dye it. Doesn’t matter much to me either way.\"",
-	image:src="classroom.png",
+	image:src="schoolroofwithdelinquent.gif",
 	choices:[
 			{
 			text:'Leave',
@@ -621,7 +621,7 @@ var roomArray = [
 	+"<br/><br/>Iwashima Sadako: \"Ahh.. my hair… its too long… if you get me some scissors I can trim it now, if you’d like..\""
 	+"<br/><br/>You see from under her hair she is smiling."
 	+"<br/>It’s nice to encounter someone reasonable for once.",
-	image:src="classroom.png",
+	image:src="nurseOfficeWithJuon.png",
 	choices:[
 			{
 				text:'Leave',
@@ -643,7 +643,7 @@ var roomArray = [
 	+"<br/><br/>Iwashima Sadako: \"Thank... you…\""
 	+"<br/><br/>She places some bandages and plasters in your hand, as if they were a thank you gift."
 	+"<br/>A little strange, but she's been through a lot..",
-	image:src="classroom.png",
+	image:src="exorcism.gif",
 	choices:[
 			{
 				text:'Leave',
@@ -711,7 +711,7 @@ var roomArray = [
 	text:"You are at the the School Entrance."
 	+"<br/><br/>There are the Shoe Lockers and Vending machines."
 	+"<br/><br/>You can leave school from here.",
-	image:src="classroom.png",
+	image:src="shoelocker.png",
 	choices:[
 			{
 				text: 'Get your shoes and leave',
@@ -731,7 +731,7 @@ var roomArray = [
 	{	//Index 36 - Buy Coffee
 	title:'Vending Machines',
 	text:"You buy a coffee from the vending machine.",
-	image:src="classroom.png",
+	image:src="coffee.gif",
 	choices:[
 			{
 				text:'Return',
@@ -748,7 +748,7 @@ var roomArray = [
 	+"<br/>There is no way prescription would lose against fashion glasses, afterall."
 	+"<br/><br/>The elections come round."
 	+"<br/> It’s a close battle, but Maeda’s popularity clinches it..",
-	image:src="classroom.png",
+	image:src="maedaDeadEnd.gif",
 	choices:[
 			{
 				text:'Game Over',
@@ -763,7 +763,7 @@ var roomArray = [
 	+"<br/><br/>\"Well done."
 	+"<br/>Let’s talk, I’m at the School Gate waiting for you."
 	+"<br/>Maeda\"",
-	image:src="classroom.png",
+	image:src="shoelockernote.png",
 	choices:[
 			{
 				text: 'Proceed to School Gate',
