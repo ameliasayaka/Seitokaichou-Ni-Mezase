@@ -8,7 +8,7 @@ var roomArray = [
 	{ //index 0
 		title:'Classroom 2-D',
 		text:"Kiritsu, Ki o Tsuke, Rei, Chakuseki. <br/><br/>You are in your classroom and your lesson has reached the end."
-		+" You've performed well, as per usual, and carried out your class representative duties ith style, grace and elegance."
+		+" You've performed well, as per usual, and carried out your class representative duties with style, grace and elegance."
 		+"<br/><br/>From the corner of your bespectacled eyes, you spot a smirking face.<br/><br/>The bastard has come to taunt you again.",
 		image:src="classroom.png",
 		choices:[
