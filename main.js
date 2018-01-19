@@ -114,8 +114,8 @@ function SelectRoom(roomIndex)
       isMayuUpset = true;
       roomArray[9].choices.splice(0,1); //remove ability to speak to mayu in class
       roomArray[26].choices.splice(0.1); //remove ability to find keisuke
-      roomArray[16].choices.splice(0,0,{text:"Comfort Yokoyama", index: 16}); //index to be changed to 18 - addition of comfort mayu choice
-      roomArray[17].choices.splice(0,0,{text:"Comfort Yokoyama", index: 16}); //option from after finding scissors
+      roomArray[16].choices.splice(0,0,{text:"Comfort Yokoyama", index: 18}); // addition of comfort mayu choice
+      roomArray[17].choices.splice(0,0,{text:"Comfort Yokoyama", index: 18}); //option from after finding scissors
     }
 
     //completeing Mayu
@@ -155,7 +155,7 @@ function SelectRoom(roomIndex)
         }
     }
 
-      if (hasBandages == true && hasUniform == true && bandageOptionFromFight==false)
+      if (hasBandages == true && hasUniform == true && bandageOptionFromFight==false && hasHadFight == true)
       {
         roomArray[22].choices.splice(0,0,{text:"Bandage Uehara and give him the spare uniform", index:23});
         roomArray[20].choices.splice(0,0,{text:"Bandage Uehara and give him the spare uniform", index:23});
@@ -256,6 +256,8 @@ function SelectRoom(roomIndex)
         roomArray[29].text= "You are in the Nurse’s Office."
       	+"<br/><br/>Iwashima is in the room, looking a little weak."
       	+"<br/><br/>You no longer feel the strange, murderous aura that surrounded Iwashima before." //change text
+
+        roomArray[29].image = src= "exorcisediwashimaoffice.png"
 
         roomArray[29].choices.splice(0,1);
 

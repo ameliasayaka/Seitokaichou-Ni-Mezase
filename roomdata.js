@@ -63,7 +63,7 @@ var roomArray = [
 		+"<br/><br/>Maeda Itsuki: \"F-f-fool. These glasses are prescription too.<br/>You'll lose, "+lastName+", mark my words."
 		+"<br/>A democratic election is no more than a popularity contest"
 		+"<br/>Besides, do you even have the mettle to improve troublesome students?"
-		+"<br/>How about a a little bet? You sort out these three students by the end of the day, and I'll drop out of the race.\""
+		+"<br/>How about a little bet? You sort out these three students by the end of the day, and I'll drop out of the race.\""
 		+"<br/>Maeda scribbles some names on a piece of paper and hands it to you."
 		+"<br/>\"If you manage this, even I will be impressed. Smell ya later\""
 		+"<br/><br/>He laughs and leaves the classroom, fooling no one about his glasses",
@@ -257,7 +257,7 @@ var roomArray = [
 +"<br/>From forms of development of the productive forces these relations turn into their fetters."
 +"<br/>Then begins an era of social revolution.\""
 +"<br/><br/>She looks at you with eyes of wonder, something awakening in her. She thanks you and leaves quickly.",
-	image:src="classroom.png",
+	image:src="yokoyamapeace.gif",
 	choices:[
 			{
 				text:'Leave the Classroom',
@@ -271,7 +271,7 @@ var roomArray = [
 	text:"You walk away for now."
 	+"<br/><br/>It's clear she won't listen to anything you have to say."
 	+"<br/>You'll have to find someone with more social sway to talk  some sense into her.",
-	image:src="classroom.png",
+	image:src="yokoyamapeace.gif",
 	choices:[
 			{
 				text:'Leave Classroom',
@@ -285,7 +285,7 @@ var roomArray = [
 	text:"You're in the Hallway on the Third Floor."
 	+"<br/><br/>The First Years have their classrooms here."
 	+"<br/>Also located on this floor are the Lost Property Closet and the Home Economics Room.",
-	image:src="classroom.png",
+	image:src="hallway.png",
 	choices:[
 			{
 				text:'Search the Lost Property Closet',
@@ -309,7 +309,7 @@ var roomArray = [
 	+"<br/> You find some strange things that you wish you hadn't seen at all..."
 	+"<br/><br/>Eventually, you find some spare boys uniform, in suprisingly good condition!"
 	+"<br/>These may come in handy later on.",
-	image:src="classroom.png",
+	image:src="uniform.png",
 	choices:[
 			{
 				text:'Return to Hallway',
@@ -319,12 +319,12 @@ var roomArray = [
 	},
 
 	{	//Index 16 -Home Economics Room
-	title:'Lost Property',
+	title:'Home Economics Room',
 	text:"You are in the Home Economics Room."
 	+"<br/><br/>In here you usually have lessons on cooking, sewing and things of that sort."
 	+"<br/><br/>There are various utensils in the drawers."
 	+"<br/>You left a fine pair of scissors in here a week ago...",
-	image:src="classroom.png",
+	image:src="homeecroom.png",
 	choices:[
 		{
 			text:'Search for your scissors',
@@ -347,7 +347,7 @@ var roomArray = [
 	+"<br/>Using the bobby pin, you attempt to pick the lock of the drawers you haven't searched yet."
 	+"<br/>You eventually manage, the locks not being particularly complex, and there you see your beautiful pair of scissors."
 	+"<br/><br/>You are content.",
-	image:src="classroom.png",
+	image:src="scissors.gif",
 	choices:[
 		{
 			text:'Leave Room',
@@ -370,7 +370,7 @@ var roomArray = [
 	+"<br/><br/>She laughs a little, though tears are still rolling down her cheeks."
 	+"<br/><br/>Since you are in the Home Economics Room, you decide to whip up something small to lift her spirits."
 	+"<br/>You hand over your delicious creation and leave her to eat in peace.",
-	image:src="classroom.png",
+	image:src="yokoyamacrying.gif",
 	choices:[
 		{
 			text:'Leave Room',
@@ -383,7 +383,7 @@ var roomArray = [
 	title:'Roof',
 	text:"You are on the School Roof."
 	+"<br/>The Roof is empty, suprisingly, aside from one intimidating figure staring out to the sky.",
-	image:src="classroom.png",
+	image:src="schoolroof.png",
 	choices:[
 		{
 			text:'Approach the man',
@@ -431,7 +431,7 @@ var roomArray = [
 	 +"<br/><br/>He decks you in the jaw, knocking you out in one powerful hit."
 	 +"<br/><br/>Later they find you unconscious, with a suspicious puddle formed around you."
 	 +"You become the laughing stock of the school, and lose miserably in the election.",
-	image:src="classroom.png",
+	image:src="pissyourself.png",
 	choices:[
 		{
 			text:'Game Over',
@@ -450,7 +450,7 @@ var roomArray = [
 	+"<br/><br/>Uehara Kei: \"You know, I’ve decided I like you. You weren’t what I was expecting. Not just anyone could match me like that."
 	+"<br/>Right.. I guess I could help you out. For a little bit.\""
 	+"<br/><br/>He looks a little beaten up, but exhilarated.",
-	image:src="classroom.png",
+	image:src="fight.png",
 	choices:[ //choices added when available
 		{
 			text:'Convince him to dye his hair back to a natural colour',
@@ -469,10 +469,10 @@ var roomArray = [
 	+"<br/>It is an intimate moment, as you gently patch up  his slight wounds."
 	+"<br/>He looks into your eyes, thanks you softly, and smiles."
 	+"<br/><br/>"+lastName+" "+firstName+": \"Here, take this. You'll catch a cold.\""
-	+"<br/><br/>You hand him a spare shirt and gakuran, luckily they fit reasonably well."
+	+"<br/><br/>You hand him a spare shirt and gakuran, luckily they seem they'll fit reasonably well."
 	+"<br/>He takes them off you."
 	+"<br/><br/>Uehara Kei: \"Thanks man. I'll put these on in a bit.. I'm feeling a little hot at the moment..\"",
-	image:src="classroom.png",
+	image:src="bandage.png",
 	choices:[ //choices added when available
 		{
 			text:'Convince him to dye his hair back to a natural colour',
@@ -506,7 +506,7 @@ var roomArray = [
 	text:"You are in the 1st Floor Hallway."
 	+"<br/><br/>The Third years have their lessons here."
 	+"<br/>You also have access to the Nurse’s Office, the Sport’s Field and the School Entrance.",
-	image:src="classroom.png",
+	image:src="hallway.png",
 	choices:[
 			{
 			text:'Go to the Sports Field',
@@ -535,7 +535,7 @@ var roomArray = [
 	+"<br/>He is sporty and popular, especially with girls."
 	+"<br/><br/>He also happens to be in the same class as Yokoyama Mayu."
 	+"<br/>You remember that he has somme notes of yours that you need to pick up from him",
-	image:src="classroom.png",
+	image:src="sportsfield.png",
 	choices:[
 			{
 			text:'Find Keisuke',
@@ -557,7 +557,7 @@ var roomArray = [
 	+"<br/><br/>"+lastName+" "+firstName+": \"Thanks Keisuke, but not today.<br/>I just wanted to ask whether I could pick my notes up from you.\""
 	+"<br/><br/>Iwata Keisuke: \"Sure! They're just in my desk."
 	+"<br/>Let's go get them now!\"",
-	image:src="classroom.png",
+	image:src="keisuke.png",
 	choices:[
 			{
 			text:'Go  with Keisuke to get your notes',
@@ -579,7 +579,7 @@ var roomArray = [
 	+"<br/><br/>In that moment Yokoyama pushes past you, and you see there are tears streaming down her face."
 	+"<br/>She runs out the classroom."
 	+"<br/><br/>Iwata Keisuke: \"Ah.. she heard me.. Um.. Here are your notes. I'll see you later..\"",
-	image:src="classroom.png",
+	image:src="keisuke.gif",
 	choices:[
 			{
 			text:'Go find Yokoyama and comfort her',
@@ -681,7 +681,7 @@ var roomArray = [
 	+"<br/>It will feel good to finally get rid of all this hair."
 	+"<br/>I’ll cut it when I’m feeling a little stronger\""
 	+"<br/><br/>You can’t help but wonder what she’ll look like without all that hair in her face..",
-	image:src="classroom.png",
+	image:src="exorcisediwashimaoffice.png",
 	choices:[
 			{
 				text:'Leave',
@@ -697,7 +697,7 @@ var roomArray = [
 	+"<br/><br/>"+lastName+" "+firstName+": \"Here. You must be exhausted."
 	+"<br/>This will give you some energy. Rest up\""
 	+"<br/><br/>She takes the coffee gratefully and chugs it down.",
-	image:src="classroom.png",
+	image:src="exorcisediwashimaoffice.png",
 	choices:[
 			{
 				text:'Leave',
@@ -793,7 +793,7 @@ var roomArray = [
 	+"<br/>\"We all have something we need to tell you!\""
 	+"<br/><br/>You’re somewhat confused, unsure of what exactly is going on."
 	+"<br/><br/>"+lastName+" "+firstName+": \"Don’t worry, I’m in no rush. I’ll hear you all out properly, one by one.\"",
-	image:src="classroom.png",
+	image:src="gateeveryone.png",
 	choices:[
 			{
 				text: 'Talk to Maeda Itsuki',
@@ -831,7 +831,7 @@ var roomArray = [
 	+"<br/><br/>He looks at you expectantly, waiting for you to say something."
 	+"<br/><br/>"+lastName+" "+firstName+": \"This.. is a lot to take in, I have to admit. Please, allow me some time to consider you words.\""
 	+"<br/><br/>Maeda nods, his face flushed red with the realisation that his feelings had finally been conveyed.",
-	image:src="classroom.png",
+	image:src="schoolgatewithrival.png",
 	choices:[
 			{
 				text: 'Return to others',
@@ -858,7 +858,7 @@ var roomArray = [
 	+"<br/>Even if you can’t return my feelings I will be eternally grateful, and I’m sure my feelings for you will never fade.."
 	+"<br/>I don’t expect an answer, and I’m sure you need some  time to mull thing over.. But, again, thank you.\""
 	+"<br/><br/>She smiles at you and blushes as you catch eyes.",
-	image:src="classroom.png",
+	image:src="schoolgatewithsadako.png",
 	choices:[
 			{
 				text: 'Return to others',
@@ -897,7 +897,7 @@ var roomArray = [
 	+"<br/><br/>"+lastName+" "+firstName+": \"“I-ughhh.. Wha..\""
 	+"<br/><br/>Only gibberish comes out."
 	+"<br/><br/>Uehara Kei: \"J-j-just give me a few minutes please, okay..\"",
-	image:src="classroom.png",
+	image:src="schoolgatedelinquent.png",
 	choices:[
 			{
 				text: 'Return to others',
@@ -959,7 +959,7 @@ var roomArray = [
 	+"<br/>I want to be able to help and support you, like you’ve done for me.\""
 	+"<br/><br/>She realises she has been gripping your hands, and lets go quickly, slightly embarrassed."
 	+"<br/><br/>Yokoyama Mayu: \"Look, I know this is a lot. I don’t expect an answer right away. Take some time to think things over.\"",
-	image:src="classroom.png",
+	image:src="schoolgateyokoyama.png",
 	choices:[
 			{
 				text: 'Return to others',
@@ -976,7 +976,7 @@ var roomArray = [
 	+"<br/><br/>You can’t deny that there is one who makes your heart skip a beat, and brought a wave of joy when you heard their confession."
 	+"<br/><br/>You turn to Maeda, Iwashima, Uehara and Yokoyama, who are all standing by the gate, looking expectantly at you."
 	+"<br/><br/>"+lastName+" "+firstName+": \"Listen.. I appreciate all of your feelings and honesty. The truth is, I’m in love with:\"",
-	image:src="classroom.png",
+	image:src="gateeveryone.png",
 	choices:[
 			{
 				text: 'Maeda Itsuki',
@@ -1021,7 +1021,7 @@ var roomArray = [
 	+"<br/><br/><br/>Elections come round, and you gain an easy victory."
 	+"<br/>With Maeda at your side, the council runs smoothly, and gains unprecedented power and respect in the school."
 	+"<br/><br/>As your time at High School ends, you and Maeda apply for the same prestigious University and continue your romantic bliss there",
-	image:src="classroom.png",
+	image:src="maedaend.png",
 	choices:[
 			{
 				text: '♥　Replay?　♥',
@@ -1053,7 +1053,7 @@ var roomArray = [
 	+"<br/> Influenced by Sadako’s kind heart, you become a benevolent leader, and are much loved by the students and teachers of the school."
 	+"<br/><br/>Though your time at High School eventually reaches an end, your relationship with Sadako continues to flourish to the very end,"
 	+"<br/>and you both live happy, peaceful lives as pillars of your community.",
-	image:src="classroom.png",
+	image:src="iwashimaend.png",
 	choices:[
 			{
 				text: '♥　Replay?　♥',
@@ -1085,7 +1085,7 @@ var roomArray = [
 	+"<br/><br/>Uehara smiles, and pulls you into a deep, passionate kiss, that feels like it lasts an eternity.."
 	+"<br/><br/><br/>You wake up the next morning, feeling refreshed, happily nestled in your lover’s arms,<br/>relishing the feeling of Uehara’s warm body against yours."
 	+"<br/><br/>The day you become Student Council President has a morning just like this one, and every day after.",
-	image:src="classroom.png",
+	image:src="ueharaend.png",
 	choices:[
 			{
 				text: '♥　Replay?　♥',
@@ -1119,7 +1119,7 @@ var roomArray = [
 	+"<br/><br/>Yokoyama Mayu: \""+firstName+"... Are you sure about this? It will be dangerous…\""
 	+"<br/><br/>"+lastName+" "+firstName+": \"Of course, Mayu. I’ll do anything so long as I can stay with you."
 	+"<br/><br/><br/>Though you both face many trials, you eventually both become formidable leaders in the Sasai family.<br/>Your fingers and love remain intact..",
-	image:src="classroom.png",
+	image:src="yokoyamaend.png",
 	choices:[
 			{
 				text: '♥　Replay?　♥',
@@ -1136,7 +1136,7 @@ var roomArray = [
 	+"<br/>Who were you kidding? How could you deny the way they made you feel?"
 	+"<br/><br/>You start again."
 	+"<br/><br/>"+lastName+" "+firstName+": \"I’m in love with:\"",
-	image:src="classroom.png",
+	image:src="gateeveryone.png",
 	choices:[
 		{
 			text: 'Maeda Itsuki',
