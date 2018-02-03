@@ -106,6 +106,7 @@ function SelectRoom(roomIndex)
     {
       isMayuCommunist = true;
       roomArray[9].choices.splice(0,1);
+      roomArray[26].choices.splice(0,1); //remove ability to find keisuke
     }
 
     //upsetting Mayu
@@ -113,7 +114,7 @@ function SelectRoom(roomIndex)
     {
       isMayuUpset = true;
       roomArray[9].choices.splice(0,1); //remove ability to speak to mayu in class
-      roomArray[26].choices.splice(0.1); //remove ability to find keisuke
+      roomArray[26].choices.splice(0,1); //remove ability to find keisuke
       roomArray[16].choices.splice(0,0,{text:"Comfort Yokoyama", index: 18}); // addition of comfort mayu choice
       roomArray[17].choices.splice(0,0,{text:"Comfort Yokoyama", index: 18}); //option from after finding scissors
     }
